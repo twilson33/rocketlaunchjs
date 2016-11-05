@@ -16,10 +16,10 @@ document.getElementById('countdown').innerHTML = countDownNumber;
 	}
 	else if(state == 3){
 		var success = setTimeout(function(){
-var randomNumber = Math.round(Math.random()*10);
+var randomNumber = Math.round(Math.random()*100);
 		console.log("random number: " + randomNumber);
 		//success
-		if(randomNumber > 5){
+		if(randomNumber > 25){
 			changeState(4);
 		}
 		else{

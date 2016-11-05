@@ -112,9 +112,12 @@ h1{
 .rocket{
 	position: absolute;
 	left: 50%;
-	bottom: 20px;
-	width: 20px;
-	height: 100px;
-	background-color: blue;
+	bottom: -40px;
+	width:60px;
+	height:150px;
+	fill:red;
+	background:url(../img/rocket.svg) no-repeat center center;
+	-webkit-background-size: 60px 150px;
+	background-size: 60px 150px;
 	transition: bottom 4s;
 }
